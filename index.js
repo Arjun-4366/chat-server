@@ -28,7 +28,7 @@ const server = app.listen(PORT, () => {
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://chat-frontend-pied.vercel.app/",
+    origin: "https://chat-frontend-onajb7ap8-arjun-t-vs-projects.vercel.app/",
   },
 });
 
