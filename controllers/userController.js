@@ -10,6 +10,8 @@ const securePassword = async (password) => {
 const loginVerify = async (req, res) => {
   try {
     const { userName, password } = req.body;
+    console.log('username',req.body.userName)
+    
     if (!userName && !password) {
       res.json({ message: "Please fill all fields" });
       res.status(400);

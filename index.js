@@ -3,7 +3,7 @@ const app = express();
 const userRoutes = require("./routes/userRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
-const chatModel = require('./models/chatSchema')
+// const chatModel = require('./models/chatSchema')
 
 const cors = require("cors");
 
